@@ -15,16 +15,17 @@ a[i]=sc.nextint();
 }
 System.out.println("enter the search element:");
 search=sc.nextint();
+  int flog=0;
 for(i=0;i<n;i++)
 {
-if(search==a[i])
-{
-System.out.println("search is found at:" + i);
+    if(search==a[i])  {                                                  //if you use if condition inside loop .... after every increase in i 
+        flag=1;
+         break;                                                           //ie on every loop it will print either of the two lines
+  
+    }
 }
-else
-{
-System.out.println("search is failed");
-}
-}
-}
+  if(flag==1)
+    System.out.println("found");
+  else
+    System.out.println("not found");
 }
