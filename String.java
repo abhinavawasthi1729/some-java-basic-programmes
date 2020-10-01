@@ -2,7 +2,7 @@ class String
 {
     public static void main(String args[])
 {
-    String str1=Easytutsforyou;
+    String str1="Easytutsforyou";                                                 //every string must be in double quotes
     String str2= new String("java");
     char name[]={'r','a','m','a','n'};
     String str3= new String(name);
